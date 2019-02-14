@@ -50,7 +50,7 @@ Blocktrans Example:
         {% endblocktrans %}
     {% endfilter %}
 
-Note: translator notes must be in the line immediately proceeding the translated string, so the force_escape filter should be declared around the translator's note as well.
+Note: translator notes must be in the line immediately preceding the translated string, so the force_escape filter should be declared around the translator's note as well.
 
 There also exists a **deprecated** custom filter named htmlescape in credentials that does the same thing as force_escape, only with hacky exceptions for some HTML.  Instead, please follow the examples documented in this page.
 
