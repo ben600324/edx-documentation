@@ -28,7 +28,7 @@ little messy with interpolated variables, and if the interpolations have
 their own translated message, it may be difficult on translators, but it
 is workable.
 
-.. code-block::
+.. code::
 
     <FormattedMessage
       id="test.hello"
@@ -56,7 +56,7 @@ is meant to work with legacy strings that are safe and contain HTML, but
 it is never safe.  Even if the default message is safe, we can't ensure
 that a translator doesn't input some unsafe text in the translation.
 
-.. code-block::
+.. code::
 
     // do NOT use this!
     <FormattedHTMLMessage
